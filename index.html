@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="dest/css/index.min.css" />
+    <!-- <link rel="stylesheet" href="origin/css/index.min.css" /> -->
+    <!--[if lt IE 9]>  
+        <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+        <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.js"></script>
+    <![endif]-->
+    <title>首页</title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container container-fluid1">
+            <div class="navbar-header">
+                <a href="" class="navbar-brand" title="首页">首页</a>
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse navbar-responsive-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="javascript:void(0);" class="alertModal">关于</a></li>
+                    <li><a href="javascript:void(0);" class="alertModal">服务</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">产品
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li class="my-divider" role="presentation"><a href="javascript:void(0);" class="alertModal">软件 <span class="badge pull-right">100+</span></a></li>
+                            <li role="presentation"><a href="javascript:void(0);" class="alertModal">社区O2O</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:void(0);" id="about" class="alertModal">个人中心</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="carousel slide" id="mainCarousel" data-ride="carousel" data-interval="2000">
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="dest/images/temp/temp(1).jpg" alt="slide1">
+                <div class="carousel-caption">
+                    <h3>防蓝光护眼灯</h3>
+                    <p>防蓝光 智能护眼灯 全线直降500</p>
+                    <button class="btn btn-primary btn-sm">点击查看</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="dest/images/temp/temp(2).jpg" alt="slide2">
+                <div class="carousel-caption">
+                    <h3>kindle</h3>
+                    <p>kindle whitepaper 买就送¥50</p>
+                    <button class="btn btn-primary btn-sm">点击查看</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="dest/images/temp/temp(3).jpg" alt="slide3">
+                <div class="carousel-caption">
+                    <h3>年度特惠</h3>
+                    <p>海量图书 满200送100</p>
+                    <button class="btn btn-info btn-sm">点击查看</button>
+                </div>
+            </div>
+        </div>
+        <ol class="carousel-indicators">
+            <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#mainCarousel" data-slide-to="1"></li>
+            <li data-target="#mainCarousel" data-slide-to="2"></li>
+        </ol>
+        <a class="left carousel-control" href="#mainCarousel" data-slide="prev" role="button">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">上一幅</span>
+        </a>
+        <a class="right carousel-control" href="#mainCarousel" data-slide="next" role="button">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">下一幅</span>
+        </a>
+    </div>
+    <div class="container mainContainer">
+        <div class="row text-center">
+            <div class="col-sm-4 mainCol">
+                <span class="icon glyphicon glyphicon-cloud"></span>
+                <h2>我的云服务 <span class="badge">10+</span></h2>
+                <p>云服务包含所有会员在线服务</p>
+                <a href="#" class="btn btn-primary" role="button">了解详情</a>
+            </div>
+            <div class="col-sm-4 mainCol">
+                <span class="icon glyphicon glyphicon-cloud-upload"></span>
+                <h2>云上传</h2>
+                <p>支持多文件上传的个人网盘</p>
+                <a href="#" class="btn btn-primary" role="button">了解详情</a>
+            </div>
+            <div class="col-sm-4 mainCol">
+                <span class="icon glyphicon glyphicon-cloud-download"></span>
+                <h2>云下载</h2>
+                <p>支持多终端随时下载</p>
+                <a href="#" class="btn btn-primary" role="button">了解详情</a>
+            </div>
+        </div>
+    </div>
+    <div class="container container-fluid recommended">
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="text-center active"><a href="#tabContent1" data-toggle="tab" role="tab">今日推荐</a></li>
+            <li class="text-center"><a href="#tabContent2" data-toggle="tab" role="tab">热卖产品</a></li>
+            <li class="text-center"><a href="#tabContent3" data-toggle="tab" role="tab">经典珍藏</a></li>
+        </ul>
+        <ul class="tab-content recommended-list">
+            <li class="tab-pane fade in active" id="tabContent1">
+                <div class="media">
+                    <a href="#" class="pull-left inline-block" title="今日推荐">
+                        <img src="dest/images/browser-logo (1).jpg" alt="今日推荐" />
+                    </a>
+                    <div class="media-body">
+                        <h2 class="media-heading" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Google Chrome <span class="sub-title">使用最广的浏览器</span></h2>
+                        <p>Google Chrome，又称Google浏览器，是一个由Google（谷歌）公司开发的网页浏览器。 该浏览器是基于其他开源软件所撰写，包括WebKit，目标是提升稳定性、速度和安全性，并创造出简单且有效率的使用者界面。</p>
+                    </div>
+                </div>
+            </li>
+            <li class="tab-pane fade" id="tabContent2">
+                <div class="media">
+                    <a href="#" class="pull-right" title="经典珍藏">
+                        <img src="dest/images/browser-logo (2).jpg" alt="经典珍藏" />
+                    </a>
+                    <div class="media-body">
+                        <h2 class="media-heading">Mozilla Firefox <span class="sub-title">美丽的狐狸</span></h2>
+                        <p>Mozilla Firefox，中文名通常称为“火狐”或“火狐浏览器”，是一个开源网页浏览器， 使用Gecko引擎（非ie内核），支持多种操作系统如Windows、Mac和linux。</p>
+                    </div>
+                </div>
+            </li>
+            <li class="tab-pane fade" id="tabContent3">
+                <div class="media">
+                    <a href="#" class="pull-left" title="热卖产品">
+                        <img src="dest/images/browser-logo (5).jpg" alt="热卖产品" />
+                    </a>
+                    <div class="media-body">
+                        <h2 class="media-heading">Safari <span class="sub-title">Apple首先</span></h2>
+                        <p>Safari，是苹果计算机的最新操作系统Mac OS X中的浏览器，使用了KDE的KHTML作为浏览器的运算核心。 Safari在2003年1月7日首度发行测试版，并成为Mac OS X v10.3与之后的默认浏览器，也是iPhone与IPAD和iPod touch的指定浏览器。</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <table class="table table-striped table-hover table-condensed">
+            <caption class="sr-only">
+                <h3>产品介绍</h3></caption>
+            <thead>
+                <tr>
+                    <th class="text-center">#</th>
+                    <th class="text-center">名称</th>
+                    <th class="text-center">介绍</th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+                <tr>
+                    <td>1</td>
+                    <td>Google Chrome</td>
+                    <td class="text-left">Google Chrome，又称Google浏览器，是一个由Google（谷歌）公司开发的网页浏览器。 该浏览器是基于其他开源软件所撰写，包括WebKit，目标是提升稳定性、速度和安全性，并创造出简单且有效率的使用者界面。</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Mozilla Firefox</td>
+                    <td class="text-left">Mozilla Firefox，中文名通常称为“火狐”或“火狐浏览器”，是一个开源网页浏览器， 使用Gecko引擎（非ie内核），支持多种操作系统如Windows、Mac和linux。</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>IE</td>
+                    <td class="text-left">Internet Explorer，原称Microsoft Internet Explorer(6版本以前)和Windows Internet Explorer(7，8，9，10版本)， 简称IE，是美国微软公司推出的一款网页浏览器。它采用的排版引擎(俗称内核)为Trident。</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Safari</td>
+                    <td class="text-left">Safari，是苹果计算机的最新操作系统Mac OS X中的浏览器，使用了KDE的KHTML作为浏览器的运算核心。 Safari在2003年1月7日首度发行测试版，并成为Mac OS X v10.3与之后的默认浏览器，也是iPhone与IPAD和iPod touch的指定浏览器。</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Opera</td>
+                    <td class="text-left">Opera浏览器，是一款挪威Opera Software ASA公司制作的支持多页面标签式浏览的网络浏览器。 是跨平台浏览器可以在Windows、Mac和Linux三个操作系统平台上运行。.</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr class="divider" />
+        <div class="col-sm-10 col-sm-offset-2 text-center">
+            <h4>在线反馈</h4>
+            <button class="btn btn-primary foldForm unfoldForm dis-none">展开</button>
+        </div>
+        <form action="#" class="form form-horizontal">
+            <div class="form-group">
+                <label for="username" class="col-sm-2 control-label">用户名:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="username" placeholder="请输入用户名" autocomplete="off"  />
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message" class="col-sm-2 control-label">留言:</label>
+                <div class="col-sm-10">
+                    <textarea name="" id="message" cols="30" rows="5" class="form-control" placeholder="畅所欲言..."  ></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10 text-center">
+                    <input type="submit" class="btn btn-default" value="提交" />
+                    <button class="btn btn-default foldForm" role="button">收起</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; ThinkMan</p>
+        </div>
+    </footer>
+    <div class="modal fade" id="modalAbout">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span data-dismiss="modal" class="close">&times;<span class="sr-only">关闭</span></span>
+                    <span>提示</span>
+                </div>
+                <div class="modal-body">
+                    <h4 class="text-center"></h4>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal">关闭</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul class="toolbars">
+        <li class="toolbar-item toolbar-weixin">
+            <span class="icon-wrap"></span>
+            <img src="dest/images/weixin.png" alt="微信">
+        </li>
+        <li class="toolbar-item toolbar-app">
+            <span class="icon-wrap"></span>
+            <img src="dest/images/appewm.png" alt="App">
+        </li>
+        <li class="toolbar-item toolbar-toTop" id="toTop">
+            <span class="icon-wrap"></span>
+        </li>
+    </ul>
+    <script data-main="dest/js/main.min" src="bower_components/require/require.min.js"></script>
+</body>
+</html>

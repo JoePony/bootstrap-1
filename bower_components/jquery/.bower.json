@@ -1,0 +1,12 @@
+{
+  "name": "jquery.min",
+  "_cacheHeaders": {
+    "Last-Modified": "Wed, 03 Jun 2015 05:58:22 GMT",
+    "Content-Type": "application/x-javascript"
+  },
+  "main": "index.js",
+  "_source": "http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js",
+  "_target": "*",
+  "_originalSource": "http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js",
+  "_direct": true
+}
